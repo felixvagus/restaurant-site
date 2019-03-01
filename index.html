@@ -3,30 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Restaurant Site</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
   </head>
   <body>
     <header>
-      <nav>Home</nav>
-      <nav>Menu</nav>
-      <nav>Reservations</nav>
-      <nav>Random</nav>
+    <div class="grid">
+      <div class="col span_1_of_12">
+        <nav>Home</nav>
+      </div>
+      <div class="col span_1_of_12">
+        <nav>Menu</nav>
+      </div>
+      <div class="col span_1_of_12">
+        <nav>Reservations</nav>
+      </div>
+      <div class="col span_1_of_12">
+        <nav>Random</nav>
+      </div>
+    </div>
+    <div class="col span_4_of_12">
       <h1>The Place of Eating</h1>
+    </div>
     </header>
-    <h2>The place where you can eat food!</h2>
-      <p>Ever feel that little rumble in your stomach? That means your hungry!
-        A hungry stomach needs food! You just gotta come in, sit down, and give
-        us your money first!</p>
-        <br>
-        <p>We have all sorts of delicious foods that you can eat here! And to
+      <div class="col span_4_of_12">
+        <h2>The place where you can eat food!</h2>
+      </div>
+        <div class="col span_6_of_12">
+          <p>Ever feel that little rumble in your stomach? That means your hungry!
+            A hungry stomach needs food! You just gotta come in, sit down, and give
+            us your money first!</p>
+        </div>
+          <br>
+        <div class="col span_6_of_12">
+          <p>We have all sorts of delicious foods that you can eat here! And to
           beat all of those other restaurants options with gluten free options,
           we took a step forward and created a new desirable health option -
           vitamin free! Now you won't have to worry about having too high of a
           vitamin intake!</p>
-        <img src="images/home-page-food.png" height="450" width="450" alt="dis food">
+          <img src="images/home-page-food.png" height="450" width="450" alt="dis food">
+        </div>
       <footer>
-        <p>Disclaimer: You must sign our legally binded waivers before stepping
-          into our establishment.</p>
-        <p>Project created by Daniel Kiefer</p>
+          <div class="col span_12_of_12">
+            <p>Disclaimer: You must sign our legally binded waivers before stepping
+            into our establishment.</p>
+            <p>Project created by Daniel Kiefer</p>
+          </div>
       </footer>
   </body>
 </html>
