@@ -3,41 +3,64 @@
   <head>
     <meta charset="utf-8">
     <title>Restaurant Site</title>
-    <link rel="stylesheet" type="text/css" href="grid-practice.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
   </head>
   <body>
     <header>
-      <nav>Home</nav>
-      <nav>Menu</nav>
-      <nav>Reservations</nav>
-      <nav>Random</nav>
+    <div class="grid">
+      <div class="col span_1_of_12">
+        <nav>Home</nav>
+      </div>
+      <div class="col span_1_of_12">
+        <nav>Menu</nav>
+      </div>
+      <div class="col span_1_of_12">
+        <nav>Reservations</nav>
+      </div>
+      <div class="col span_1_of_12">
+        <nav>Random</nav>
+      </div>
+    </div>
+    <br>
       <h1>Menu</h1>
     </header>
     <section>
+    <div class="col span_4_of_12">
       <h2>Bits</h2>
         <p>Yimmy Yums</p>
         <p>Sugar Noms</p>
         <p>Green Crunchy Chomps</p>
+    </div>
+    <div class="col span_4_of_12">
       <h2>Gits</h2>
         <p>Squeaky Chewies</p>
         <p>Fishy Breads</p>
         <p>Gumpy Gits</p>
+    </div>
+    <div class="col span_4_of_12">
       <h2>Sips</h2>
         <p>Clear Sips</p>
         <p>Fizzy Sips</p>
         <p>Dizzy Sips</p>
+    </div>
     </section>
     <br>
     <section>
-      <h2>Mhhhmmmm</h2>
-      <img src="images/bits.jpg" height="250" width="250" alt="dis bits">
-      <img src="images/gits.jpg" height="250" width="280" alt="dis gits">
-      <img src="images/sips.jpg" height="250" width="280" alt="dis sips">
+      <div class="container">
+        <div class="box">
+          <h2>Mhhhmmmm</h2>
+        </div>
+          <img src="images/bits.jpg" height="250" width="250" alt="dis bits">
+          <img src="images/gits.jpg" height="250" width="280" alt="dis gits">
+          <img src="images/sips.jpg" height="250" width="280" alt="dis sips">
+    </div>
     </section>
     <footer>
-      <p>Disclaimer: You must sign our legally binded waivers before stepping
+      <div class="col span_12_of_12">
+        <p>Disclaimer: You must sign our legally binded waivers before stepping
         into our establishment.</p>
-      <p>Project created by Daniel Kiefer</p>
+        <p>Project created by Daniel Kiefer</p>
+      </div>
     </footer>
   </body>
 </html>

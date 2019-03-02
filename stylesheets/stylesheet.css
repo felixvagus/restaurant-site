@@ -1,3 +1,13 @@
+.box {
+  height: px;
+  width: px;
+  border: 10px solid purpl
+  background: lightgreen;
+}
+.container {
+  height: px;
+  background-color: pink;
+}
 * {
     box-sizing: border-box;
 }
