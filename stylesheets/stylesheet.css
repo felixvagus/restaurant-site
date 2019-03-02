@@ -74,3 +74,15 @@
 .span_12_of_12 {
   width: 100%;
 }
+body {
+  background-color: lightgreen;
+}
+h1 {
+  color: darkorange;
+}
+h2 {
+  color: darkorange;
+}
+p {
+  color: darkorange;
+}
