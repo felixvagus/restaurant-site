@@ -79,10 +79,27 @@ body {
 }
 h1 {
   color: darkorange;
+  font-size: 300%;
+  width: 1500px;
 }
 h2 {
   color: darkorange;
+  font-size: 200%;
 }
 p {
   color: darkorange;
+  font-size: 200%;
+}
+a {
+  font-size: 120%;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
 }
